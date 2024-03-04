@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to bottom, pink, purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.ipad {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px;
+    object-fit: cover;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.left:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.right:hover {
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.ipad:hover {
+    transform: scale(1.1);
+}
